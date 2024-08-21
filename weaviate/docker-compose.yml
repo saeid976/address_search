@@ -1,0 +1,55 @@
+version: '3.5'
+
+services:
+  weaviate:
+    command:
+    - --host
+    - 0.0.0.0
+    - --port
+    - '8080'
+    - --scheme
+    - http
+    image: semitechnologies/weaviate:1.19.5
+    ports:
+    - 8080:8080
+    restart: on-failure:0
+    volumes:
+      - ./volumes/weaviate_data:/var/lib/weaviate 
+    environment:
+      TRANSFORMERS_INFERENCE_API: 'http://t2v-transformers:8080'
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'text2vec-transformers'
+      ENABLE_MODULES: 'text2vec-transformers'
+      CLUSTER_HOSTNAME: 'node1'
+    networks:
+      - weaviate_search_places_service_net
+  
+  t2v-transformers:
+    image: plm-v6:latest
+    environment:
+      ENABLE_CUDA: '0'
+      NVIDIA_VISIBLE_DEVICES: all
+    networks:
+      - weaviate_search_places_service_net
+  
+  weaviate_search_places_service:
+    image: weaviate_search_places_service:latest
+    build:
+      context: weaviate_service
+    container_name: weaviate_search_places_service
+    ports:
+      - 8000:8000
+    networks:
+      - weaviate_search_places_service_net
+    volumes:
+      - ./weaviate_service:/app
+      - /etc/timezone:/etc/timezone:ro 
+      - /etc/localtime:/etc/localtime:ro
+      - ./weaviate_service/search/data:/app/search/data 
+
+networks:
+  weaviate_search_places_service_net:
+    name: weaviate_search_places_service_net
+    driver: bridge

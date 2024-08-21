@@ -1,0 +1,7 @@
+geopy
+pandas
+fastapi
+uvicorn
+pydantic
+python-dotenv
+elasticsearch

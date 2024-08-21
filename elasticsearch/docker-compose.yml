@@ -1,0 +1,44 @@
+services:
+  elastic:
+    image: "sebp/elk:latest"
+    container_name: elk_stack
+    restart: always
+    ports:
+      - 5602:5601
+      - 9200:9200
+      - 5044:5044
+    volumes:
+      - ./volumes/elk_storage:/var/lib/elasticsearch
+      - ./volumes/logstash_udp/udp.conf:/etc/logstash/conf.d/99-input-udp.conf
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+    networks:
+      - elastic_search_places_service_net
+  
+  elastic_search_places_service:
+    image: elastic_search_places_service:latest
+    build:
+      context: elastic_service
+    container_name: elastic_search_places_service
+    depends_on:
+      - elastic
+    ports:
+      - 9000:9000
+    networks:
+      - elastic_search_places_service_net
+    volumes:
+      - ./elastic_service:/app
+      - /etc/timezone:/etc/timezone:ro 
+      - /etc/localtime:/etc/localtime:ro
+      - ./elastic_service/search/data:/app/search/data 
+
+networks:
+  elastic_search_places_service_net:
+    name: elastic_search_places_service_net
+    driver: bridge

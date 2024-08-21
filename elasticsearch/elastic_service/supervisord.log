@@ -1,0 +1,149 @@
+2024-08-20 19:51:04,293 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-20 19:51:04,294 INFO supervisord started with pid 1
+2024-08-20 19:51:05,295 INFO spawned: 'run_fastapi' with pid 7
+2024-08-20 19:52:05,382 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-08-20 19:56:01,619 WARN received SIGTERM indicating exit request
+2024-08-20 19:56:01,620 INFO waiting for run_fastapi to die
+2024-08-20 19:56:01,828 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-20 20:16:09,955 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-20 20:16:09,956 INFO supervisord started with pid 1
+2024-08-20 20:16:10,961 INFO spawned: 'run_fastapi' with pid 7
+2024-08-20 20:17:11,023 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-08-20 20:18:35,079 WARN received SIGTERM indicating exit request
+2024-08-20 20:18:35,080 INFO waiting for run_fastapi to die
+2024-08-20 20:18:38,083 INFO waiting for run_fastapi to die
+2024-08-20 20:18:41,086 INFO waiting for run_fastapi to die
+2024-08-20 20:18:44,089 INFO waiting for run_fastapi to die
+2024-08-20 20:19:30,637 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-20 20:19:30,638 INFO supervisord started with pid 1
+2024-08-20 20:19:31,639 INFO spawned: 'run_fastapi' with pid 7
+2024-08-20 20:20:32,582 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-08-20 20:21:39,648 WARN received SIGTERM indicating exit request
+2024-08-20 20:21:39,648 INFO waiting for run_fastapi to die
+2024-08-20 20:21:39,785 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-20 20:21:58,212 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-20 20:21:58,213 INFO supervisord started with pid 1
+2024-08-20 20:21:59,216 INFO spawned: 'run_fastapi' with pid 7
+2024-08-20 20:22:59,778 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-08-20 20:23:46,825 WARN received SIGTERM indicating exit request
+2024-08-20 20:23:46,826 INFO waiting for run_fastapi to die
+2024-08-20 20:23:47,005 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-20 20:23:47,480 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-20 20:23:47,481 INFO supervisord started with pid 1
+2024-08-20 20:23:48,486 INFO spawned: 'run_fastapi' with pid 7
+2024-08-20 20:24:49,377 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-08-20 20:25:59,449 WARN received SIGTERM indicating exit request
+2024-08-20 20:25:59,450 INFO waiting for run_fastapi to die
+2024-08-20 20:26:00,606 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:32:20,313 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:32:20,321 INFO supervisord started with pid 1
+2024-08-21 09:32:21,324 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:32:39,461 WARN received SIGTERM indicating exit request
+2024-08-21 09:32:39,461 INFO waiting for run_fastapi to die
+2024-08-21 09:32:39,608 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:32:52,797 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:32:52,798 INFO supervisord started with pid 1
+2024-08-21 09:32:53,800 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:35:54,359 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 180 seconds (startsecs)
+2024-08-21 09:37:25,672 WARN received SIGTERM indicating exit request
+2024-08-21 09:37:25,672 INFO waiting for run_fastapi to die
+2024-08-21 09:37:25,868 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:37:26,513 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:37:26,513 INFO supervisord started with pid 1
+2024-08-21 09:37:27,518 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:40:27,874 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 180 seconds (startsecs)
+2024-08-21 09:40:35,882 WARN received SIGTERM indicating exit request
+2024-08-21 09:40:35,882 INFO waiting for run_fastapi to die
+2024-08-21 09:40:35,991 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:40:51,929 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:40:51,930 INFO supervisord started with pid 1
+2024-08-21 09:40:52,932 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:41:50,855 WARN received SIGTERM indicating exit request
+2024-08-21 09:41:50,855 INFO waiting for run_fastapi to die
+2024-08-21 09:41:51,014 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:41:51,498 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:41:51,499 INFO supervisord started with pid 1
+2024-08-21 09:41:52,500 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:43:36,781 WARN received SIGTERM indicating exit request
+2024-08-21 09:43:36,781 INFO waiting for run_fastapi to die
+2024-08-21 09:43:36,938 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:45:22,071 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:45:22,072 INFO supervisord started with pid 1
+2024-08-21 09:45:23,073 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:46:33,402 WARN received SIGTERM indicating exit request
+2024-08-21 09:46:33,402 INFO waiting for run_fastapi to die
+2024-08-21 09:46:33,579 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:46:34,026 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:46:34,027 INFO supervisord started with pid 1
+2024-08-21 09:46:35,030 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:49:35,293 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 180 seconds (startsecs)
+2024-08-21 09:50:29,348 WARN received SIGTERM indicating exit request
+2024-08-21 09:50:29,348 INFO waiting for run_fastapi to die
+2024-08-21 09:50:29,467 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:50:49,944 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:50:49,945 INFO supervisord started with pid 1
+2024-08-21 09:50:50,946 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:52:26,875 WARN received SIGTERM indicating exit request
+2024-08-21 09:52:26,875 INFO waiting for run_fastapi to die
+2024-08-21 09:52:27,043 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:52:42,531 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:52:42,532 INFO supervisord started with pid 1
+2024-08-21 09:52:43,534 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:54:44,765 WARN received SIGTERM indicating exit request
+2024-08-21 09:54:44,765 INFO waiting for run_fastapi to die
+2024-08-21 09:54:44,896 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:55:00,734 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:55:00,735 INFO supervisord started with pid 1
+2024-08-21 09:55:01,736 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:56:21,487 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:56:21,488 INFO supervisord started with pid 1
+2024-08-21 09:56:22,490 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 09:57:38,933 WARN received SIGTERM indicating exit request
+2024-08-21 09:57:38,933 INFO waiting for run_fastapi to die
+2024-08-21 09:57:39,067 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 09:59:22,665 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 09:59:22,666 INFO supervisord started with pid 1
+2024-08-21 09:59:23,668 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:01:55,541 WARN received SIGTERM indicating exit request
+2024-08-21 10:01:55,542 INFO waiting for run_fastapi to die
+2024-08-21 10:01:55,673 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 10:02:08,413 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 10:02:08,414 INFO supervisord started with pid 1
+2024-08-21 10:02:09,415 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:05:09,447 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 180 seconds (startsecs)
+2024-08-21 10:05:24,463 WARN received SIGTERM indicating exit request
+2024-08-21 10:05:24,464 INFO waiting for run_fastapi to die
+2024-08-21 10:05:24,646 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 10:05:53,163 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 10:05:53,164 INFO supervisord started with pid 1
+2024-08-21 10:05:54,166 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:06:39,839 WARN received SIGTERM indicating exit request
+2024-08-21 10:06:39,839 INFO waiting for run_fastapi to die
+2024-08-21 10:06:39,965 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 10:06:53,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 10:06:53,351 INFO supervisord started with pid 1
+2024-08-21 10:06:54,352 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:09:55,143 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 180 seconds (startsecs)
+2024-08-21 10:09:56,145 WARN received SIGTERM indicating exit request
+2024-08-21 10:09:56,145 INFO waiting for run_fastapi to die
+2024-08-21 10:09:56,252 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 10:11:11,147 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 10:11:11,148 INFO supervisord started with pid 1
+2024-08-21 10:11:12,149 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:11:17,154 WARN received SIGTERM indicating exit request
+2024-08-21 10:11:17,154 INFO waiting for run_fastapi to die
+2024-08-21 10:11:20,157 INFO waiting for run_fastapi to die
+2024-08-21 10:11:23,161 INFO waiting for run_fastapi to die
+2024-08-21 10:11:44,027 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 10:11:44,029 INFO supervisord started with pid 1
+2024-08-21 10:11:45,030 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:12:56,388 WARN received SIGTERM indicating exit request
+2024-08-21 10:12:56,388 INFO waiting for run_fastapi to die
+2024-08-21 10:12:56,556 WARN stopped: run_fastapi (terminated by SIGTERM)
+2024-08-21 10:13:09,597 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-08-21 10:13:09,598 INFO supervisord started with pid 1
+2024-08-21 10:13:10,599 INFO spawned: 'run_fastapi' with pid 7
+2024-08-21 10:16:11,014 INFO success: run_fastapi entered RUNNING state, process has stayed up for > than 180 seconds (startsecs)
+2024-08-21 10:21:41,523 WARN received SIGTERM indicating exit request
+2024-08-21 10:21:41,523 INFO waiting for run_fastapi to die
+2024-08-21 10:21:41,713 WARN stopped: run_fastapi (terminated by SIGTERM)
