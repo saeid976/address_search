@@ -18,12 +18,18 @@ Weaviate is a vector database that uses vector embeddings to enable semantic sea
 
 ### Setup
 
-1. **Pull Docker Image**: Pull the Weaviate Docker image from the Docker registry.
-2. **Configure Docker Compose**: Set the Weaviate image name in the `docker-compose.yml` file located in the `weaviate` directory.
-3. **Build Docker Image**: Run the following command to build the Docker image:
+1. **Pull Docker Image**: Pull the Weaviate Docker image from the Docker registry:
+   ```bash
+   docker pull semitechnologies/weaviate:1.19.5
+2. **Pull sentence-transformer**: Pull the Docker image for sentence-transformer inference:
+   ```bash
+   docker pull semitechnologies/transformers-inference:sentence-transformers-all-MiniLM-L6-v2
+
+3. **Configure Docker Compose**: Set the Weaviate image name in the `docker-compose.yml` file located in the `weaviate` directory.
+4. **Build Docker Image**: Run the following command to build the Docker image:
    ```bash
    docker compose up --build
-4. **Access FastAPI UI**: Once the service is running, you can access the FastAPI UI at localhost:8000/docs.
+5. **Access FastAPI UI**: Once the service is running, you can access the FastAPI UI at localhost:8000/docs.
 ## Elasticsearch Microservice
 
 The `elasticsearch` directory contains a microservice that utilizes Elasticsearch for search and data indexing.
@@ -40,7 +46,9 @@ Elasticsearch is a powerful search engine based on the Lucene library. It uses a
 
 ### Setup
 
-1. **Pull Docker Image**: Pull the Weaviate Docker image from the Docker registry.
+1. **Pull Docker Image**: Pull the Weaviate Docker image from the Docker registry, use the sebp/elk that has elasticsearch and kibana:
+   ```bash
+   docker pull sebp/elk
 2. **Configure Docker Compose**: Set the Weaviate image name in the `docker-compose.yml` file located in the `elasticsearch` directory.
 3. **Build Docker Image**: Run the following command to build the Docker image:
    ```bash
