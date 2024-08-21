@@ -27,7 +27,7 @@ services:
       - weaviate_search_places_service_net
   
   t2v-transformers:
-    image: plm-v6:latest
+    image: semitechnologies/transformers-inference:sentence-transformers-all-MiniLM-L6-v2
     environment:
       ENABLE_CUDA: '0'
       NVIDIA_VISIBLE_DEVICES: all
